@@ -104,16 +104,16 @@ function Fly(fid, type, color, sh, sw, x, y, fly_img, name, title) {
 	t.style.boxShadow = '1px 1px 2px 1px #222222';
 	t.style.display = 'none';
 	if(this.name == 'Tiểu Cường'){
-		$(t).html(this.name + " nói:\n"+'"Sinh nhật vui vẻ nheeeeeeeee"');
+		$(t).html(this.name + " nói:\n"+'"Hi, chào cậu :)) "');
 		this.gender = "Đực";
 	} else if(this.name == 'Tiểu Cường') {
-		$(t).html(this.name + " nói:\n"+'"Tuổi mới xinh gái hơn, học giỏi hơn, ngủ sớm honwnnnn, healthy hơn nheeeee"');
+		$(t).html(this.name + " nói:\n"+'"Hi, chào cậu :))"');
 		this.gender = "Cái";
 	} else if(this.name == 'Tiểu Cường') {
-		$(t).html(this.name + " nói:\n"+'"Ta đang đi tìm crush, ngươi có thấy nàng ở đâu kkkkkk?"');
+		$(t).html(this.name + " nói:\n"+'"Hi, chào cậu :))"');
 		this.gender = "Đực";
 	} else {
-		$(t).html(this.name + " nói:\n"+'"Đừng đập ta nhé cô gái đáng yêu"');
+		$(t).html(this.name + " nói:\n"+'"Hi, chào cậu :))"');
 		this.gender = "Cái";
 	}
 	
@@ -155,14 +155,14 @@ function Fly(fid, type, color, sh, sw, x, y, fly_img, name, title) {
 			var value_message = Math.floor(Math.random() * 10) + 1;
 			switch (value_message) { 
 				case 1: 
-					$(t).html(parent.name + " nói:\n"+'"Chào cô gái tháng 10"')
+					$(t).html(parent.name + " Hi, chào cậu :))")
 					break;
 				case 2: 
 					// $(t).html(parent.name + " nói:\n"+'"Ngươi đã tuyệt tình, cũng đừng trách ta bất nghĩa. Ngày này năm sau sẽ là ngày giỗ của ngươi"')
-					$(t).html(parent.name + " nói:\n"+'"Không biết nói gì :#"')
+					$(t).html(parent.name + " Hi, chào cậu :))")
 					break;
 				case 3: 
-					$(t).html(parent.name + " nói:\n"+'"Nên nói gì ta?"')
+					$(t).html(parent.name + " Hi, chào cậu :))")
 					break;
 				case 4: 
 					// $(t).html(parent.name + " nói:\n"+'"Đa tình tự cổ không dư hận... Dĩ hận miên miên vô tuyệt kỳ."')
